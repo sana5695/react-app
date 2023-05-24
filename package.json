@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack serve --env port=3000",
+    "start": "webpack serve --env port=3020",
     "build:prod": "webpack --env mode=production",
     "build:dev": "webpack --env mode=development"
   },
@@ -19,6 +19,7 @@
     "@types/webpack-dev-server": "^4.7.2",
     "css-loader": "^6.7.4",
     "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.7.6",
     "sass": "^1.62.1",
     "sass-loader": "^13.3.0",
     "style-loader": "^3.3.3",
