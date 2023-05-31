@@ -1,16 +1,20 @@
 {
-"compilerOptions": {
-"outDir": "./dist/",
-"noImplicitAny": true,
-"module": "ESNext",
-"target": "ES5",
-"jsx": "react-jsx",
-"allowJs": true,
-"moduleResolution": "node",
-  //"baseUrl": ".",
-  "esModuleInterop": true,
-  "allowSyntheticDefaultImports": true
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "module": "ESNext",
+    "target": "ES5",
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["./src/*"]
+    },
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
 },
+
 
   "ts-node": {
     "compilerOptions": {

@@ -21,7 +21,6 @@ export function buildLoaders({isDev}: BuildOptions):webpack.RuleSetRule[] {
                     },
                     "sass-loader",
                 ],
-
     }
 
     const typescriptLoader = {
